@@ -1,0 +1,56 @@
+body {
+    background-color: lightgreen;
+}
+
+.login {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input {
+    border:0;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.login-btn {
+    width: 100px;
+    margin-top: 30px;
+    border: 0;
+    border-radius: 15px;
+    padding: 5px;
+    background: lightpink;
+    box-shadow: 1px 1px 3px black;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.login-btn:hover {
+    transform: scale(1.1,1.1)
+}
+
+.todo-list-header {
+    display: flex;
+    justify-content: center;
+}
+
+.todo-list {
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.todo-item {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border: 2px solid green;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.done {
+    text-decoration: line-through;
+}
